@@ -237,24 +237,104 @@ body .container .landingHome .info p {
 }
 .container .ourTeamSection .rows {
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
+  justify-content: space-around;
   margin-top: 5px;
   margin-bottom: 5px;
 }
-.container .ourTeamSection .rows .peeps {
+.container .ourTeamSection .rows .peepsreverse {
   display: flex;
-  flex-direction: column;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
   margin: 10px;
   background-color: #574841;
   padding: 10px;
   color: white;
   border-radius: 10px;
 }
-.container .ourTeamSection .rows .peeps h2 {
+.container .ourTeamSection .rows .peepsreverse .photoname {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container .ourTeamSection .rows .peepsreverse .photoname h2 {
   font-size: 25px;
   text-decoration: underline;
   margin-bottom: 5px;
 }
-.container .ourTeamSection .rows .peeps p {
+.container .ourTeamSection .rows .peepsreverse .photoname #Kara {
+  height: 150px;
+  width: 150px;
+  margin: 5px;
+  padding: 5px;
+}
+.container .ourTeamSection .rows .peepsreverse .photoname #Marcus {
+  height: 240px;
+  width: 180px;
+  margin: 5px;
+  padding: 5px;
+}
+.container .ourTeamSection .rows .peepsreverse .photoname #Penny {
+  height: 300px;
+  width: 250px;
+  margin: 5px;
+  padding: 5px;
+}
+.container .ourTeamSection .rows .peepsreverse .paragraph {
+  background-color: #836E62;
+  display: flex;
+  align-items: center;
+  margin: 5px;
+}
+.container .ourTeamSection .rows .peepsreverse .paragraph p {
   font-size: 20px;
+  margin: 5px;
+}
+.container .ourTeamSection .rows .peeps {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 10px;
+  background-color: #574841;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+}
+.container .ourTeamSection .rows .peeps .photo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container .ourTeamSection .rows .peeps .photo h2 {
+  font-size: 25px;
+  text-decoration: underline;
+  margin-bottom: 5px;
+}
+.container .ourTeamSection .rows .peeps .photo #Daniel {
+  height: 240px;
+  width: 280px;
+  margin: 5px;
+  padding: 5px;
+}
+.container .ourTeamSection .rows .peeps .photo #Vlad {
+  height: 200px;
+  width: 250px;
+  margin: 5px;
+  padding: 5px;
+}
+.container .ourTeamSection .rows .peeps .photo #Vicky {
+  height: 300px;
+  width: 250px;
+  margin: 5px;
+  padding: 5px;
+}
+.container .ourTeamSection .rows .peeps .paragraph {
+  background-color: #836E62;
+  display: flex;
+  align-items: center;
+  margin: 5px;
+}
+.container .ourTeamSection .rows .peeps .paragraph p {
+  font-size: 20px;
+  margin: 5px;
 }
