@@ -1,0 +1,186 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+  background-color: #af9085;
+  color: #403733;
+  /* border: 1px solid blue; */
+}
+* body {
+  background-image: url("../../imgs/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+* body header .logo {
+  margin-left: 5%;
+}
+* body header .container .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px;
+  background-color: #574841;
+  padding: 15px;
+  border-radius: 15px;
+}
+* body header .container .navbar nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+* body header .container .navbar nav a {
+  margin-left: 20px;
+  margin-right: 20px;
+  text-decoration: none;
+  color: white;
+}
+* body header .container .navbar nav a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+* body header .container .navbar .buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+* body header .container .navbar .buttons button {
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 10px;
+  background-color: #574841;
+  color: #f0c8b6;
+}
+* body header .container .navbar .buttons button:hover {
+  cursor: pointer;
+}
+* body .s1 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  margin: 2%;
+  padding: 2%;
+}
+* body .s1 h1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+* body .s1 h4 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+* body .s1 p {
+  justify-content: center;
+  margin: 2%;
+}
+* body .s1 button {
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 10px;
+  background-color: #574841;
+  color: #f0c8b6;
+}
+* body .s1 button:hover {
+  cursor: pointer;
+  background: #f0c8b6;
+  color: #574841;
+}
+* body .s2 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  margin: 2%;
+  padding: 2%;
+}
+* body .s2 h2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+* body .s3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+  margin: 2%;
+  padding: 2%;
+}
+* body .s3 h1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+* body .s3 h4 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 1%;
+}
+* body .s3 p {
+  justify-content: center;
+  margin-bottom: 2%;
+}
+* body .s3 p .recommend {
+  display: flex;
+  justify-content: right;
+  width: 30%;
+  margin-left: 25px;
+}
+* body .s3 p .strain {
+  display: flex;
+  justify-content: right;
+  width: 30%;
+  margin-left: 47px;
+}
+* body .s3 p .history {
+  display: flex;
+  justify-content: right;
+  width: 30%;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+* body .s4 {
+  max-width: 75%;
+}
+* body .s4 .img1 {
+  float: left;
+  max-width: 30%;
+  margin-left: 25px;
+  margin-bottom: 5%;
+}
+* body .s4 .img2 {
+  float: left;
+  max-width: 30%;
+  margin-left: 47px;
+  margin-bottom: 5%;
+}
+* body .s4 .img3 {
+  float: right;
+  max-width: 30%;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 5%;
+}
+* body footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 5rem;
+  font-size: 2rem;
+  background-color: #574841;
+  color: #f0c8b6;
+  padding-top: 20px;
+  width: 100%;
+}
