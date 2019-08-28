@@ -217,23 +217,105 @@ body .container .landingHome .info p {
   margin-top: 10px;
   margin-bottom: 5px;
 }
+.container .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px;
+  background-color: #574841;
+  padding: 15px;
+  border-radius: 15px;
+}
+@media (max-width:500px) {
+  .container .navbar {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.container .navbar nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+@media (max-width:500px) {
+  .container .navbar nav {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.container .navbar nav a {
+  margin-left: 20px;
+  margin-right: 20px;
+  text-decoration: none;
+  color: white;
+}
+@media (max-width:500px) {
+  .container .navbar nav a {
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: white;
+  }
+}
+.container .navbar nav a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.container .navbar .buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+.container .navbar .buttons button {
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 10px;
+}
+.container .navbar .buttons button:hover {
+  cursor: pointer;
+}
 .container .aboutOurTeam {
   display: flex;
   flex-direction: column;
   margin: 10px;
+  align-items: center;
+}
+@media (max-width:500px) {
+  .container .aboutOurTeam {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    align-items: center;
+  }
 }
 .container .aboutOurTeam h2 {
   font-size: 30px;
   margin: 5px;
   text-decoration: underline;
 }
+@media (max-width:500px) {
+  .container .aboutOurTeam h2 {
+    font-size: 25px;
+    margin: 5px;
+  }
+}
 .container .aboutOurTeam P {
   font-size: 20px;
+}
+@media (max-width:500px) {
+  .container .aboutOurTeam P {
+    font-size: 15px;
+    line-height: 25px;
+  }
 }
 .container .ourTeamSection {
   display: flex;
   flex-direction: column;
   margin: 5px;
+}
+@media (max-width:500px) {
+  .container .ourTeamSection {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+  }
 }
 .container .ourTeamSection .rows {
   display: flex;
@@ -241,6 +323,15 @@ body .container .landingHome .info p {
   justify-content: space-around;
   margin-top: 5px;
   margin-bottom: 5px;
+}
+@media (max-width:500px) {
+  .container .ourTeamSection .rows {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
 }
 .container .ourTeamSection .rows .peepsreverse {
   display: flex;
@@ -252,10 +343,23 @@ body .container .landingHome .info p {
   color: white;
   border-radius: 10px;
 }
+@media (max-width:500px) {
+  .container .ourTeamSection .rows .peepsreverse {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .container .ourTeamSection .rows .peepsreverse .photoname {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+@media (max-width:500px) {
+  .container .ourTeamSection .rows .peepsreverse .photoname {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
 }
 .container .ourTeamSection .rows .peepsreverse .photoname h2 {
   font-size: 25px;
@@ -268,11 +372,21 @@ body .container .landingHome .info p {
   margin: 5px;
   padding: 5px;
 }
+@media (max-width:500px) {
+  .container .ourTeamSection .rows .peepsreverse .photoname #Kara {
+    display: none;
+  }
+}
 .container .ourTeamSection .rows .peepsreverse .photoname #Marcus {
   height: 240px;
   width: 180px;
   margin: 5px;
   padding: 5px;
+}
+@media (max-width:500px) {
+  .container .ourTeamSection .rows .peepsreverse .photoname #Marcus {
+    display: none;
+  }
 }
 .container .ourTeamSection .rows .peepsreverse .photoname #Penny {
   height: 300px;
@@ -280,11 +394,17 @@ body .container .landingHome .info p {
   margin: 5px;
   padding: 5px;
 }
+@media (max-width:500px) {
+  .container .ourTeamSection .rows .peepsreverse .photoname #Penny {
+    display: none;
+  }
+}
 .container .ourTeamSection .rows .peepsreverse .paragraph {
   background-color: #836E62;
   display: flex;
   align-items: center;
   margin: 5px;
+  border-radius: 5px;
 }
 .container .ourTeamSection .rows .peepsreverse .paragraph p {
   font-size: 20px;
@@ -300,10 +420,23 @@ body .container .landingHome .info p {
   color: white;
   border-radius: 10px;
 }
+@media (max-width:500px) {
+  .container .ourTeamSection .rows .peeps {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .container .ourTeamSection .rows .peeps .photo {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+@media (max-width:500px) {
+  .container .ourTeamSection .rows .peeps .photo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
 }
 .container .ourTeamSection .rows .peeps .photo h2 {
   font-size: 25px;
@@ -316,11 +449,21 @@ body .container .landingHome .info p {
   margin: 5px;
   padding: 5px;
 }
+@media (max-width:500px) {
+  .container .ourTeamSection .rows .peeps .photo #Daniel {
+    display: none;
+  }
+}
 .container .ourTeamSection .rows .peeps .photo #Vlad {
   height: 200px;
   width: 250px;
   margin: 5px;
   padding: 5px;
+}
+@media (max-width:500px) {
+  .container .ourTeamSection .rows .peeps .photo #Vlad {
+    display: none;
+  }
 }
 .container .ourTeamSection .rows .peeps .photo #Vicky {
   height: 300px;
@@ -328,11 +471,28 @@ body .container .landingHome .info p {
   margin: 5px;
   padding: 5px;
 }
+@media (max-width:500px) {
+  .container .ourTeamSection .rows .peeps .photo #Vicky {
+    display: none;
+  }
+}
+.container .ourTeamSection .rows .peeps .photo #JT {
+  height: 300px;
+  width: 220px;
+  margin: 5px;
+  padding: 5px;
+}
+@media (max-width:500px) {
+  .container .ourTeamSection .rows .peeps .photo #JT {
+    display: none;
+  }
+}
 .container .ourTeamSection .rows .peeps .paragraph {
   background-color: #836E62;
   display: flex;
   align-items: center;
   margin: 5px;
+  border-radius: 5px;
 }
 .container .ourTeamSection .rows .peeps .paragraph p {
   font-size: 20px;

@@ -1,27 +1,104 @@
 .container{
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin:15px;
+        background-color: #574841;
+        padding:15px;
+        border-radius: 15px;
+        @media @mobile{
+            display: flex;
+            flex-direction: column;
+        }
+        nav{
+            display: flex;
+            justify-content: space-evenly;
+            @media @mobile{
+                display:flex;
+                flex-direction: column;
+            }
+            a{
+                margin-left: 20px;
+                margin-right: 20px;
+                text-decoration: none;
+                color:white;
+                @media @mobile{
+                    margin-bottom: 10px;
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+            a:hover{
+                cursor: pointer;
+                text-decoration: underline;
+            }
+        }
+        .buttons{
+            display: flex;
+            justify-content: space-evenly;
+            button{
+                margin-left: 5px;
+                margin-right: 5px;
+                padding:10px;
+                // background-color: #574841;
+                // color: #f0c8b6;
+            }
+            button:hover{
+                cursor: pointer;
+            }
+        }
+    }
     .aboutOurTeam{
         display:flex;
         flex-direction: column;
         margin:10px;
+        align-items: center;
+        @media @mobile{
+            display: flex;
+            flex-direction: column;
+            margin:10px;
+            align-items: center;
+        }
         h2{
             font-size: 30px;
             margin:5px;
             text-decoration: underline;
+            @media @mobile{
+                font-size: 25px;
+                margin:5px;
+            }
         }
         P{
             font-size: 20px;
+            @media @mobile{
+                font-size: 15px;
+                line-height: 25px;
+            }
         }
     }
     .ourTeamSection{
         display: flex;
         flex-direction: column;
         margin:5px;
+        @media @mobile{
+            display:flex;
+            flex-direction: column;
+            margin:5px;
+        }
         .rows{
             display:flex;
             flex-direction: column;
             justify-content: space-around;
             margin-top: 5px;
             margin-bottom: 5px;
+            @media @mobile{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                margin-top: 5px;
+                margin-bottom: 5px;
+            }
             .peepsreverse{
                 display: flex;
                 flex-direction: row-reverse;
@@ -31,10 +108,19 @@
                 padding: 10px;
                 color:white;
                 border-radius: 10px;
+                @media @mobile{
+                    display: flex;
+                    flex-direction: column;
+                }
                 .photoname{
                     display:flex;
                     flex-direction: column;
                     align-items: center;
+                    @media @mobile{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                    }
                     h2{
                         font-size: 25px;
                         text-decoration: underline;
@@ -45,18 +131,27 @@
                         width: 150px;
                         margin: 5px;
                         padding: 5px;
+                        @media @mobile{
+                            display: none;
+                        }
                     }
                     #Marcus{
                         height:240px;
                         width: 180px;
                         margin: 5px;
                         padding: 5px;
+                        @media @mobile{
+                            display: none;
+                        }
                     }
                     #Penny{
                         height:300px;
                         width:250px;
                         margin: 5px;
                         padding: 5px;
+                        @media @mobile{
+                            display: none;
+                        }
                     }
                 }
                 .paragraph{
@@ -64,6 +159,7 @@
                     display: flex;
                     align-items: center;
                     margin: 5px;
+                    border-radius: 5px;
                     p{
                         font-size: 20px;
                         margin: 5px;
@@ -80,10 +176,19 @@
                 padding: 10px;
                 color:white;
                 border-radius: 10px;
+                @media @mobile{
+                    display: flex;
+                    flex-direction: column;
+                }
                 .photo{
                     display:flex;
                     flex-direction: column;
                     align-items: center;
+                    @media @mobile{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                    }
                     h2{
                         font-size: 25px;
                         text-decoration: underline;
@@ -94,18 +199,36 @@
                         width:280px;
                         margin: 5px;
                         padding: 5px;
+                        @media @mobile{
+                            display: none;
+                        }
                     }
                     #Vlad{
                         height:200px;
                         width:250px;
                         margin: 5px;
                         padding: 5px;
+                        @media @mobile{
+                            display: none;
+                        }
                     }
                     #Vicky{
                         height:300px;
                         width:250px;
                         margin: 5px;
                         padding: 5px;
+                        @media @mobile{
+                            display: none;
+                        }
+                    }
+                    #JT{
+                        height:300px;
+                        width:220px;
+                        margin: 5px;
+                        padding: 5px;
+                        @media @mobile{
+                            display: none;
+                        }
                     }
                 }
                 .paragraph{
@@ -113,6 +236,7 @@
                     display: flex;
                     align-items: center;
                     margin: 5px;
+                    border-radius: 5px;
                     p{
                         font-size: 20px;
                         margin:5px;
