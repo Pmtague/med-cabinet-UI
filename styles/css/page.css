@@ -13,10 +13,26 @@
   background-size: cover;
   background-attachment: fixed;
 }
-* body header .logo {
-  margin-left: 5%;
+@media screen and (max-width: 500px) {
+  * body {
+    background-image: url("../../imgs/banner.jpg");
+    background-repeat: repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+  }
 }
-* body header .container .navbar {
+@media screen and (max-width: 800px) {
+  * body {
+    background-image: url("../../imgs/banner.jpg");
+    background-repeat: repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+  }
+}
+* header .logo {
+  margin-left: 2%;
+}
+* header .container .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -25,35 +41,35 @@
   padding: 15px;
   border-radius: 15px;
 }
-* body header .container .navbar nav {
+* header .container .navbar nav {
   display: flex;
   justify-content: space-evenly;
 }
-* body header .container .navbar nav a {
+* header .container .navbar nav a {
   margin-left: 20px;
   margin-right: 20px;
   text-decoration: none;
   color: white;
 }
-* body header .container .navbar nav a:hover {
+* header .container .navbar nav a:hover {
   cursor: pointer;
   text-decoration: underline;
 }
-* body header .container .navbar .buttons {
+* header .container .navbar .buttons {
   display: flex;
   justify-content: space-evenly;
 }
-* body header .container .navbar .buttons button {
+* header .container .navbar .buttons button {
   margin-left: 5px;
   margin-right: 5px;
   padding: 10px;
   background-color: #574841;
   color: #f0c8b6;
 }
-* body header .container .navbar .buttons button:hover {
+* header .container .navbar .buttons button:hover {
   cursor: pointer;
 }
-* body .s1 {
+* .s1 {
   display: flex;
   justify-content: center;
   align-content: center;
@@ -61,35 +77,35 @@
   margin: 2%;
   padding: 2%;
 }
-* body .s1 h1 {
+* .s1 h1 {
   display: flex;
   justify-content: center;
   text-align: center;
   width: 100%;
 }
-* body .s1 h4 {
+* .s1 h4 {
   display: flex;
   justify-content: center;
   text-align: center;
   width: 100%;
 }
-* body .s1 p {
+* .s1 p {
   justify-content: center;
   margin: 2%;
 }
-* body .s1 button {
+* .s1 button {
   margin-left: 5px;
   margin-right: 5px;
   padding: 10px;
   background-color: #574841;
   color: #f0c8b6;
 }
-* body .s1 button:hover {
+* .s1 button:hover {
   cursor: pointer;
   background: #f0c8b6;
   color: #574841;
 }
-* body .s2 {
+* .s2 {
   display: flex;
   justify-content: center;
   align-content: center;
@@ -97,13 +113,13 @@
   margin: 2%;
   padding: 2%;
 }
-* body .s2 h2 {
+* .s2 h2 {
   display: flex;
   justify-content: center;
   text-align: center;
   width: 100%;
 }
-* body .s3 {
+* .s3 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -115,65 +131,115 @@
   margin: 2%;
   padding: 2%;
 }
-* body .s3 h1 {
+* .s3 h1 {
   display: flex;
   justify-content: center;
   text-align: center;
   width: 100%;
 }
-* body .s3 h4 {
+* .s3 h4 {
   display: flex;
   justify-content: center;
   text-align: center;
   width: 100%;
   margin-bottom: 1%;
 }
-* body .s3 p {
+* .s3 p {
   justify-content: center;
   margin-bottom: 2%;
 }
-* body .s3 p .recommend {
+* .s3 p .recommend {
   display: flex;
   justify-content: right;
   width: 30%;
   margin-left: 25px;
 }
-* body .s3 p .strain {
+* .s3 p .strain {
   display: flex;
   justify-content: right;
   width: 30%;
   margin-left: 47px;
 }
-* body .s3 p .history {
+* .s3 p .history {
   display: flex;
   justify-content: right;
   width: 30%;
   margin-left: 25px;
   margin-right: 25px;
 }
-* body .s4 {
+* .s4 {
   max-width: 75%;
 }
-* body .s4 .img1 {
+* .s4 .img1 {
   float: left;
   max-width: 30%;
   margin-left: 25px;
   margin-bottom: 5%;
 }
-* body .s4 .img2 {
+@media screen and (max-width: 500px) {
+  * .s4 .img1 {
+    float: left;
+    max-width: 25%;
+    margin-left: 25px;
+    margin-bottom: 5%;
+  }
+}
+@media screen and (max-width: 800px) {
+  * .s4 .img1 {
+    float: left;
+    max-width: 25%;
+    margin-left: 25px;
+    margin-bottom: 5%;
+  }
+}
+* .s4 .img2 {
   float: left;
   max-width: 30%;
   margin-left: 47px;
   margin-bottom: 5%;
 }
-* body .s4 .img3 {
+@media screen and (max-width: 500px) {
+  * .s4 .img2 {
+    float: left;
+    max-width: 25%;
+    margin-left: 47px;
+    margin-bottom: 5%;
+  }
+}
+@media screen and (max-width: 800px) {
+  * .s4 .img2 {
+    float: left;
+    max-width: 25%;
+    margin-left: 47px;
+    margin-bottom: 5%;
+  }
+}
+* .s4 .img3 {
   float: right;
   max-width: 30%;
   margin-left: 25px;
   margin-right: 25px;
   margin-bottom: 5%;
 }
-* body footer {
+@media screen and (max-width: 500px) {
+  * .s4 .img3 {
+    float: right;
+    max-width: 25%;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 5%;
+  }
+}
+@media screen and (max-width: 800px) {
+  * .s4 .img3 {
+    float: right;
+    max-width: 25%;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 5%;
+  }
+}
+* footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
