@@ -1,0 +1,56 @@
+body {
+  background-color: #f0c8b6;
+}
+body .container header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .container header .logo img {
+  height: 200px;
+  width: 400px;
+}
+body .container .landingHome {
+  display: flex;
+  justify-content: space-evenly;
+}
+body .container .landingHome .getStarted {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+body .container .landingHome .getStarted img {
+  height: 310px;
+  width: 500px;
+  border-radius: 15px;
+}
+body .container .landingHome .getStarted button {
+  padding: 10px;
+  margin: 10px;
+}
+body .container .landingHome .getStarted button:hover {
+  cursor: pointer;
+}
+body .container .landingHome .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #574841;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 10px;
+  color: white;
+  border-radius: 15px;
+}
+body .container .landingHome .info h2 {
+  font-size: 40px;
+  text-decoration: underline;
+}
+body .container .landingHome .info p {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}

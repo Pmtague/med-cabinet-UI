@@ -1,0 +1,340 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.container .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px;
+  background-color: #574841;
+  padding: 15px;
+  border-radius: 15px;
+}
+.container .navbar nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+.container .navbar nav a {
+  margin-left: 20px;
+  margin-right: 20px;
+  text-decoration: none;
+  color: white;
+}
+.container .navbar nav a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.container .navbar .buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+.container .navbar .buttons button {
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 10px;
+}
+.container .navbar .buttons button:hover {
+  cursor: pointer;
+}
+body {
+  background-color: #f0c8b6;
+}
+body .container header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .container header .logo img {
+  height: 200px;
+  width: 400px;
+}
+body .container .landingHome {
+  display: flex;
+  justify-content: space-evenly;
+}
+body .container .landingHome .getStarted {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+body .container .landingHome .getStarted img {
+  height: 310px;
+  width: 500px;
+  border-radius: 15px;
+}
+body .container .landingHome .getStarted button {
+  padding: 10px;
+  margin: 10px;
+}
+body .container .landingHome .getStarted button:hover {
+  cursor: pointer;
+}
+body .container .landingHome .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #574841;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 10px;
+  color: white;
+  border-radius: 15px;
+}
+body .container .landingHome .info h2 {
+  font-size: 40px;
+  text-decoration: underline;
+}
+body .container .landingHome .info p {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.container .aboutOurTeam {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+.container .aboutOurTeam h2 {
+  font-size: 30px;
+  margin: 5px;
+  text-decoration: underline;
+}
+.container .aboutOurTeam P {
+  font-size: 20px;
+}
+.container .ourTeamSection {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+.container .ourTeamSection .rows {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.container .ourTeamSection .rows .peepsreverse {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  margin: 10px;
+  background-color: #574841;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+}
+.container .ourTeamSection .rows .peepsreverse .photoname {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container .ourTeamSection .rows .peepsreverse .photoname h2 {
+  font-size: 25px;
+  text-decoration: underline;
+  margin-bottom: 5px;
+}
+.container .ourTeamSection .rows .peepsreverse .photoname #Kara {
+  height: 150px;
+  width: 150px;
+  margin: 5px;
+  padding: 5px;
+}
+.container .ourTeamSection .rows .peepsreverse .photoname #Marcus {
+  height: 240px;
+  width: 180px;
+  margin: 5px;
+  padding: 5px;
+}
+.container .ourTeamSection .rows .peepsreverse .photoname #Penny {
+  height: 300px;
+  width: 250px;
+  margin: 5px;
+  padding: 5px;
+}
+.container .ourTeamSection .rows .peepsreverse .paragraph {
+  background-color: #836E62;
+  display: flex;
+  align-items: center;
+  margin: 5px;
+}
+.container .ourTeamSection .rows .peepsreverse .paragraph p {
+  font-size: 20px;
+  margin: 5px;
+}
+.container .ourTeamSection .rows .peeps {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 10px;
+  background-color: #574841;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+}
+.container .ourTeamSection .rows .peeps .photo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container .ourTeamSection .rows .peeps .photo h2 {
+  font-size: 25px;
+  text-decoration: underline;
+  margin-bottom: 5px;
+}
+.container .ourTeamSection .rows .peeps .photo #Daniel {
+  height: 240px;
+  width: 280px;
+  margin: 5px;
+  padding: 5px;
+}
+.container .ourTeamSection .rows .peeps .photo #Vlad {
+  height: 200px;
+  width: 250px;
+  margin: 5px;
+  padding: 5px;
+}
+.container .ourTeamSection .rows .peeps .photo #Vicky {
+  height: 300px;
+  width: 250px;
+  margin: 5px;
+  padding: 5px;
+}
+.container .ourTeamSection .rows .peeps .paragraph {
+  background-color: #836E62;
+  display: flex;
+  align-items: center;
+  margin: 5px;
+}
+.container .ourTeamSection .rows .peeps .paragraph p {
+  font-size: 20px;
+  margin: 5px;
+}
