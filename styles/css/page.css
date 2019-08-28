@@ -123,15 +123,11 @@
 }
 * .s3 {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
-  flex-wrap: wrap;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  letter-spacing: 2px;
+  max-width: 100%;
   margin: 2%;
-  padding: 2%;
 }
 * .s3 h1 {
   display: flex;
@@ -145,10 +141,11 @@
   text-align: center;
   width: 100%;
   margin-bottom: 1%;
+  margin-top: 2%;
 }
 * .s3 p {
   justify-content: center;
-  margin-bottom: 2%;
+  margin: 2%;
 }
 * .s3 p .recommend {
   display: flex;
@@ -170,75 +167,57 @@
   margin-right: 25px;
 }
 * .s4 {
-  max-width: 75%;
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 100%;
+  margin: 2%;
 }
 * .s4 .img1 {
-  float: left;
   max-width: 30%;
-  margin-left: 25px;
-  margin-bottom: 5%;
+  margin: 2%;
 }
 @media screen and (max-width: 500px) {
   * .s4 .img1 {
-    float: left;
     max-width: 25%;
-    margin-left: 25px;
-    margin-bottom: 5%;
+    margin: 2%;
   }
 }
 @media screen and (max-width: 800px) {
   * .s4 .img1 {
-    float: left;
     max-width: 25%;
-    margin-left: 25px;
-    margin-bottom: 5%;
+    margin: 2%;
   }
 }
 * .s4 .img2 {
-  float: left;
   max-width: 30%;
-  margin-left: 47px;
-  margin-bottom: 5%;
+  margin: 2%;
 }
 @media screen and (max-width: 500px) {
   * .s4 .img2 {
-    float: left;
     max-width: 25%;
-    margin-left: 47px;
-    margin-bottom: 5%;
+    margin: 2%;
   }
 }
 @media screen and (max-width: 800px) {
   * .s4 .img2 {
-    float: left;
     max-width: 25%;
-    margin-left: 47px;
-    margin-bottom: 5%;
+    margin: 2%;
   }
 }
 * .s4 .img3 {
-  float: right;
   max-width: 30%;
-  margin-left: 25px;
-  margin-right: 25px;
-  margin-bottom: 5%;
+  margin: 2%;
 }
 @media screen and (max-width: 500px) {
   * .s4 .img3 {
-    float: right;
     max-width: 25%;
-    margin-left: 25px;
-    margin-right: 25px;
-    margin-bottom: 5%;
+    margin: 2%;
   }
 }
 @media screen and (max-width: 800px) {
   * .s4 .img3 {
-    float: right;
     max-width: 25%;
-    margin-left: 25px;
-    margin-right: 25px;
-    margin-bottom: 5%;
+    margin: 2%;
   }
 }
 * footer {
