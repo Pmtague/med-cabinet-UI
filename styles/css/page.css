@@ -68,6 +68,8 @@
 }
 * header .container .navbar .buttons button:hover {
   cursor: pointer;
+  background: #f0c8b6;
+  color: #574841;
 }
 * .s1 {
   display: flex;
