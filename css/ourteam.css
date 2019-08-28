@@ -36,23 +36,28 @@
 .container .ourTeamSection .rows .peepsreverse .photoname {
   display: flex;
   flex-direction: column;
-  align-content: center;
-  justify-content: center;
+  align-items: center;
 }
 .container .ourTeamSection .rows .peepsreverse .photoname h2 {
   font-size: 25px;
   text-decoration: underline;
   margin-bottom: 5px;
 }
-.container .ourTeamSection .rows .peepsreverse .photoname img #Kara {
-  height: 100px;
-  width: 100px;
+.container .ourTeamSection .rows .peepsreverse .photoname #Kara {
+  height: 150px;
+  width: 150px;
   margin: 5px;
   padding: 5px;
 }
-.container .ourTeamSection .rows .peepsreverse .photoname img #Marcus {
-  height: 40px;
-  width: 10px;
+.container .ourTeamSection .rows .peepsreverse .photoname #Marcus {
+  height: 240px;
+  width: 180px;
+  margin: 5px;
+  padding: 5px;
+}
+.container .ourTeamSection .rows .peepsreverse .photoname #Penny {
+  height: 300px;
+  width: 250px;
   margin: 5px;
   padding: 5px;
 }
@@ -79,27 +84,44 @@
 .container .ourTeamSection .rows .peeps .photo {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 .container .ourTeamSection .rows .peeps .photo h2 {
   font-size: 25px;
   text-decoration: underline;
   margin-bottom: 5px;
 }
-.container .ourTeamSection .rows .peeps .photo img #Daniel {
-  height: 5px;
-  width: 5px;
+.container .ourTeamSection .rows .peeps .photo #Daniel {
+  height: 240px;
+  width: 280px;
   margin: 5px;
   padding: 5px;
 }
-.container .ourTeamSection .rows .peeps .photo img #Vlad {
-  height: 5px;
-  width: 5px;
+.container .ourTeamSection .rows .peeps .photo #Vlad {
+  height: 200px;
+  width: 250px;
+  margin: 5px;
+  padding: 5px;
+}
+.container .ourTeamSection .rows .peeps .photo #Vicky {
+  height: 300px;
+  width: 250px;
+  margin: 5px;
+  padding: 5px;
+}
+.container .ourTeamSection .rows .peeps .photo #JT {
+  height: 300px;
+  width: 250px;
   margin: 5px;
   padding: 5px;
 }
 .container .ourTeamSection .rows .peeps .paragraph {
   background-color: #836E62;
+  display: flex;
+  align-items: center;
+  margin: 5px;
 }
 .container .ourTeamSection .rows .peeps .paragraph p {
   font-size: 20px;
+  margin: 5px;
 }
