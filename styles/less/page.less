@@ -71,11 +71,20 @@
             color: #f0c8b6;
           }
           button {
-            &:hover {
-              cursor: pointer;
-              background: #f0c8b6;
-              color: #574841;
+            a {
+              margin-left: 20px;
+              margin-right: 20px;
+              text-decoration: none;
+              color: #f0c8b6;
+              &:hover{
+                color:#574841
+              }
             }
+              &:hover {
+                cursor: pointer;
+                background: #f0c8b6;
+                color: #574841;
+              }
           }
         }
       }
@@ -114,11 +123,21 @@
       padding: 10px;
       background-color: #574841;
       color: #f0c8b6;
-      &:hover {
-        cursor: pointer;
-        background: #f0c8b6;
-        color: #574841;
+      a {
+        margin-left: 20px;
+        margin-right: 20px;
+        text-decoration: none;
+        color: #f0c8b6;
+       &:hover{
+         color:#574841
+       }
       }
+        &:hover {
+          cursor: pointer;
+          background: #f0c8b6;
+          color: #574841;
+        }
+      
     }
   }
   .s2 {
@@ -140,7 +159,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    flex-direction:column;
+    flex-direction: column;
     max-width: 100%;
     margin: 2%;
 
@@ -162,8 +181,8 @@
 
     p {
       justify-content: center;
-      
-      margin:2%;
+
+      margin: 2%;
 
       .recommend {
         display: flex;

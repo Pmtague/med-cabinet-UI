@@ -66,6 +66,15 @@
   background-color: #574841;
   color: #f0c8b6;
 }
+* header .container .navbar .buttons button a {
+  margin-left: 20px;
+  margin-right: 20px;
+  text-decoration: none;
+  color: #f0c8b6;
+}
+* header .container .navbar .buttons button a:hover {
+  color: #574841;
+}
 * header .container .navbar .buttons button:hover {
   cursor: pointer;
   background: #f0c8b6;
@@ -101,6 +110,15 @@
   padding: 10px;
   background-color: #574841;
   color: #f0c8b6;
+}
+* .s1 button a {
+  margin-left: 20px;
+  margin-right: 20px;
+  text-decoration: none;
+  color: #f0c8b6;
+}
+* .s1 button a:hover {
+  color: #574841;
 }
 * .s1 button:hover {
   cursor: pointer;
