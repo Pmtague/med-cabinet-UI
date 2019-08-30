@@ -267,9 +267,13 @@ body .container .landingHome .info p {
   margin-left: 5px;
   margin-right: 5px;
   padding: 10px;
+  background-color: #574841;
+  color: #f0c8b6;
 }
 .container .navbar .buttons button:hover {
   cursor: pointer;
+  background: #f0c8b6;
+  color: #574841;
 }
 .container .aboutOurTeam {
   display: flex;
@@ -396,6 +400,17 @@ body .container .landingHome .info p {
 }
 @media (max-width:500px) {
   .container .ourTeamSection .rows .peepsreverse .photoname #Penny {
+    display: none;
+  }
+}
+.container .ourTeamSection .rows .peepsreverse .photoname #Matt {
+  height: 300px;
+  width: 250px;
+  margin: 5px;
+  padding: 5px;
+}
+@media (max-width:500px) {
+  .container .ourTeamSection .rows .peepsreverse .photoname #Matt {
     display: none;
   }
 }
